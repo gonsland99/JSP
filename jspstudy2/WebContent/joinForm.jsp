@@ -29,7 +29,7 @@
 	<table>
 		<tr>
 			<td><label for="id">아이디 : </label></td>
-			<td><input type="text" name="id" id="id"></td>
+			<td><input type="text" name="id2" id="id"></td>
 		</tr>
 		<tr>
 			<td><label for="pass">비밀번호 : </label></td>

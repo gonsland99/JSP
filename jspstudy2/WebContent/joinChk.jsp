@@ -4,7 +4,13 @@
 	request.setCharacterEncoding("utf-8");
 %>
 <jsp:useBean id="user" class="com.test.jsp.dto.JoinBean"/>
-<<jsp:setProperty property="id" name="user"/>
+<jsp:setProperty property="*" name="user"/>
+<jsp:setProperty property="id" name="user" param="id2"/>
+<jsp:setProperty property="pass" name="user"/>
+<jsp:setProperty property="name" name="user"/>
+<jsp:setProperty property="sex" name="user"/>
+<jsp:setProperty property="age" name="user"/>
+<jsp:setProperty property="email" name="user"/>
 <!DOCTYPE html>
 <html>
 <head>
