@@ -17,7 +17,7 @@
 	</form>
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 	<script>
-		$(function()){
+		$(function(){
 			$(".rbtn").removeProp("checked");
 			if(localStorage.lang == "korea") {
 				$(".rbtn:first").prop("checked", "checked");

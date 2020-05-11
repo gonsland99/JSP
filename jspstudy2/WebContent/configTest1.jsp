@@ -10,9 +10,9 @@
 	<%
 		out.println(config.getServletName());
 		out.println("<hr/>");
-		Enumeration enu = config.getInitParameterNames();
-		while(enu.hasMoreElements()){
-			String name = enu.nextElement();
+		Enumeration e = config.getInitParameterNames();
+		while(e.hasMoreElements()){
+			String name = (String)e.nextElement();
 			out.println(name + ":" + config.getInitParameter(name));
 			out.println("<hr/>");
 		}
